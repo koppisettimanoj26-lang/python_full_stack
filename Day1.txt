@@ -1,0 +1,112 @@
+1. what is frontend?
+2. what is backend?
+3. what are rest api?
+4. what are storage areas?
+5. difference b/w file management system and dbms?
+Day1 notes-sql
+-----------
+https://docs.google.com/document/d/13RP2LCK1L_4c_wCuHh87muP6ADnKR8ksZb44hEMZTqc/edit?tab=t.0#heading=h.eaawkkopxs27
+
+Day_2 of sql
+
+1. What is data?
+A: raw facts or figures without context
+eg: 101,malli,50000,hyd
+
+2. What is field?
+A: Smallest unit of data in database(column/attributes)
+eg: ename, salary, eaddress, eid
+
+3. What is record? 
+A: Collection of related fields(row/tuple)
+eg: (101, 'sunny', 50000)
+
+4. What is database?
+A: Organized collection of related records stored together
+ex: an employee database containing all employee records.
+
+
+5.client-server-arch ?
+A: client: The role of the client in client server arch is to send request to the erver and to get response from the server...
+   server: server is a software the role of the server in client-server arch is to take request from the clients.
+   If the request is valid request it will generate some response and we can handover that response to client. If the request is not valid 	request it will raise some error status codes.
+   protocol : It has a set of rules and regulations. The role of the protocol inn client-server arch is to send requests from client to server..
+
+6. What is identifiers?
+
+A: --> Identifier are names, keywords etc.
+   --> Identifiers should not start with digit..
+   --> spaces are not considered to declare identifiers.
+   --> reserve words not considered to declear identifiers.
+   --> max length to declere identifiers is 15.
+
+
+
+
+class1 : Sql commands :
+---------------------------
+
+1. What is sql? 
+
+A: Sql is a structured query language is a standardized programming langiage specially designed for managing and manipulating relational databases. It provides a declarative syntax that allows users to define what data they want to retrive, insert, update or delete without specifying exactly how database should executes these operations.
+
+2. Sql commands 
+
+A: --> DDL : data definition language
+	----------------------------------
+   Definnes and modifies the structure of database objects(tables, schemas, indexes)
+
+	Create : CREATES a new database objects such as a tables, database, view, index, or schema.
+	How to create database/schema?
+	-------------------------------
+	syntax
+--------------------
+		CREATE TABLE table-name(
+		column-name datatype(size) constaint
+		column-name datatype(size) constaint
+		column-name datatype(size) constaint);
+
+
+	Drop :  
+
+   --> DML(Data manipulation language)
+--------------------------------------------
+   Manages data stored within database objects(insert,update,delete)
+
+   --> DCL(Data control language)
+------------------------------------------
+   manages permissions and accesses control on database objects.
+
+   --> TCL(Transaction control language)
+------------------------------------------------
+   manages transaction to maintain data integrity.
+
+   --> DQL(Data query lanuage) 
+--------------------------------------------------
+used to fetch/retrieve data from the database.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
